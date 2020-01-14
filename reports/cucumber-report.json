@@ -1,0 +1,5805 @@
+[
+  {
+    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in and get change back\n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
+    "elements": [
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-coins",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "buy Americano with sugar and pay with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 557583
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 126541
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 261835
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 225367
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1692367918
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-coins",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "buy Americano with sugar and pay with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 73300
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 76217
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 133470
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 117789
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1634908693
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-coins",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "buy Americano with sugar and pay with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 171031
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 136753
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 121071
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 152069
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1592390456
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-coins",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "buy Americano with sugar and pay with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 78405
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 57983
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 72205
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 77676
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1623781083
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-coins",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "buy Americano with sugar and pay with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 97002
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 100284
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 135658
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 110861
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1625886336
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-with-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "buy Americano with sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 88251
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 108307
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 132742
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 92990
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "teh machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Americano with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1619684719
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/americano-with-sugar.feature"
+  },
+  {
+    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in and get change back\n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
+    "elements": [
+      {
+        "id": ";buy-americano-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "buy Americano without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 66734
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53242
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 92628
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 66371
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 79862
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Americano.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1619305824
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "buy Americano without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 141493
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 102473
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 111589
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 88615
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 56524
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Americano.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1617526954
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "buy Americano without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 51783
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 55066
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 74393
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 65276
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 56160
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1646623426
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "buy Americano without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 70382
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 90075
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 93721
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 75123
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 64912
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1629438244
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "buy Americano without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 109401
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 101743
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 114143
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 94450
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 48865
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Americano.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1622564172
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-americano-without-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "buy Americano without sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 153892
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 99556
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 121072
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 107213
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "passed",
+              "duration": 68558
+            },
+            "line": 36,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Americano",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1623377755
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/americano.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of Caffe Latte back\nwith sugar or without sugar\nbecause I like Caffe Latte and crave caffeine.",
+    "elements": [
+      {
+        "id": ";buy-caffe-latte-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "buy Caffe Latte without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 130189
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 61995
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Caffe Latte.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1626020536
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "buy Caffe Latte without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 105755
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 91897
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Caffe Latte.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1621909585
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "buy Caffe Latte without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 65276
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 66371
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1622056912
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "buy Caffe Latte without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 106120
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 93357
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1615518702
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "buy Caffe Latte without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 49596
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 47407
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1618576480
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-without-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "buy Caffe Latte without sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 75851
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 95910
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1617230475
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "buy Caffe Latte with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 123259
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 128364
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1625828718
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "buy Caffe Latte with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 86428
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 75852
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1618414565
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "buy Caffe Latte with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 84604
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 93721
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1621893539
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "buy Caffe Latte with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 68924
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 71475
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1638941605
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "buy Caffe Latte with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 125447
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 63818
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1629742746
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-caffe-latte-with-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "buy Caffe Latte with sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 99556
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 89710
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Caffe Latte with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1617787329
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/caffelatte.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of Cappuccino back\nwith sugar or without sugar\nbecause I like Cappuccino and crave caffeine.",
+    "elements": [
+      {
+        "id": ";buy-cappuccino-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "buy Cappuccino without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 60536
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 59078
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Cappuccino.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1623086382
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "buy Cappuccino without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 104296
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 92263
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Cappuccino.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1624261356
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "buy Cappuccino without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 84239
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 104661
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1626665275
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "buy Cappuccino without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 80228
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 82050
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1618296411
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-without-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "buy Cappuccino without sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 153891
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 891988
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1620217505
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-without-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "buy Cappuccino without sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 75853
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53607
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1623928046
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "buy Cappuccino with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 109037
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 75122
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1624073186
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "buy Cappuccino with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 83875
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 65641
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1613334316
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "buy Cappuccino with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 145139
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 68194
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1624887499
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "buy Cappuccino with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 84604
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 80228
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1620243032
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-with-coins",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "buy Cappuccino with sugar with coins",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 59442
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 50689
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1622811055
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";buy-cappuccino-with-sugar-and-pay-with-bank-card",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "buy Cappuccino with sugar and pay with bank card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 106485
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 67100
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the machine has enough sugar for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 62
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Sugar\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user taps the bank card near the terminal",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the payment is accepted",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the \"Start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives a cup of Cappuccino with sugar.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1588920599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/cappuccino.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of  back\nwith sugar or without sugar\nbecause I like Americano and crave caffeine.",
+    "elements": [
+      {
+        "id": ";missing-coffee-for-americano",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Missing coffee for Americano",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 59077
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 64912
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 53973
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has not enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receive a cup of Americano",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the display shows \"There is not enough coffee\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1611322783
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-coffe-for-cappuccino",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Missing coffe for Cappuccino",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 99920
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 75488
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 79498
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has not enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receive a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the display shows \"There is not enough coffee\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1635278105
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-coffe-for-caffe-latte",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Missing coffe for Caffe Latte",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 82781
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 61995
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 55065
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has not enough coffee for a cup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has enough milk powder for a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"CaffeLatte\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receive a cup of Caffe Latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the display shows \"There is not enough coffee\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1627200614
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/missingcaffeforcup.feature"
+  }
+]
