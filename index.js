@@ -1,5 +1,4 @@
-// A class that defines how a
-// coffee machine shall work
+
 
 class CoffeeMachine {
 
@@ -17,11 +16,11 @@ class CoffeeMachine {
     this.pricePerCup = 20; // in SEK
     
     this.waterForCaffee = 177; // in ml
-    this.waterForCaffeLatte = 200// in ml
+    this.waterForCaffeLatte = 200;// in ml
     this.coffeePerCup = 13; // in grams
     this.milkPerCappuccino = 10; // in grams
     this.milkPerCaffeLatte = 15; // in grams
-    this.sugarPerCup = 7 // in grams
+    this.sugarPerCup = 7; // in grams
     
   }
 
@@ -122,7 +121,7 @@ class CoffeeMachine {
     
   }
 
-  addSugar(sugarPerCup) {
+  addSugar(amount) {
      
    }
 
