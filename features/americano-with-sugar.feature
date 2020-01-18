@@ -1,7 +1,7 @@
 Feature:  
   As a coffee buyer
   I want a coffee machine that
-  I can put coins in and get change back
+  I can put coins in 
   or pay with bank card
   and get a cup of Americano back
   with sugar or without sugar
@@ -21,7 +21,7 @@ Feature:
     And the user inserts a <money2> kr coin
     And the user inserts a <money3> kr coin
     And the user inserts a <money4> kr coin
-    And presses the "start" button
+    And presses the "Start" button
     Then the user recieves <cup> cup of Americano with sugar.
 
     Examples:

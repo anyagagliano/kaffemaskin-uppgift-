@@ -1,13 +1,13 @@
 Feature:
 As a coffee buyer
 I want a coffee machine that
-I can put coins in and get change back
+I can put coins in 
 or pay with bank card
 and get a cup of  back
 with sugar or without sugar
 because I like Americano and crave caffeine.
  
-Background: Coffe machine basic missing caffe
+Background: Coffe machine basic missing coffee
     Given that the machine is plugged in
     And that water is available
     And the machine has plastic cups

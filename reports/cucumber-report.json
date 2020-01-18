@@ -1,6 +1,6 @@
 [
   {
-    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in and get change back\n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
+    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in \n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
     "elements": [
       {
         "id": ";buy-americano-with-sugar-and-pay-with-coins",
@@ -14,11 +14,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 557583
+              "duration": 835000
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 126541
+              "duration": 167299
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 261835
+              "duration": 251300
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 225367
+              "duration": 136800
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -65,20 +65,25 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 160501
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "the user presses the \"Americano\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 76401
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -86,11 +91,12 @@
             "keyword": "And ",
             "name": "the user presses the \"Sugar\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 43801
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -132,7 +138,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -152,11 +158,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1692367918
+              "duration": 1660355000
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -175,11 +181,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 73300
+              "duration": 114000
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -188,11 +194,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 76217
+              "duration": 93700
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -201,11 +207,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 133470
+              "duration": 112501
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -214,11 +220,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 117789
+              "duration": 112800
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -226,20 +232,25 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 77199
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "the user presses the \"Americano\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 65200
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -247,11 +258,12 @@
             "keyword": "And ",
             "name": "the user presses the \"Sugar\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 55400
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -293,7 +305,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -313,11 +325,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1634908693
+              "duration": 1595947600
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -336,11 +348,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 171031
+              "duration": 110800
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -349,11 +361,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 136753
+              "duration": 88200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -362,11 +374,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 121071
+              "duration": 124901
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -375,11 +387,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 152069
+              "duration": 80500
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -387,20 +399,25 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 81601
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "the user presses the \"Americano\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 77901
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -408,11 +425,12 @@
             "keyword": "And ",
             "name": "the user presses the \"Sugar\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 70600
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -454,7 +472,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -474,11 +492,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1592390456
+              "duration": 1582004899
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -497,11 +515,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 78405
+              "duration": 119699
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -510,11 +528,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 57983
+              "duration": 144200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -523,11 +541,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 72205
+              "duration": 146999
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -536,11 +554,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 77676
+              "duration": 113700
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -548,20 +566,25 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 135500
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "the user presses the \"Americano\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 78401
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -569,11 +592,12 @@
             "keyword": "And ",
             "name": "the user presses the \"Sugar\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 87699
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -615,7 +639,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -635,11 +659,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1623781083
+              "duration": 1581510300
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -658,11 +682,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 97002
+              "duration": 110000
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -671,11 +695,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 100284
+              "duration": 182100
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -684,11 +708,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 135658
+              "duration": 158600
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -697,11 +721,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 110861
+              "duration": 130001
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -709,20 +733,25 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 86999
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "the user presses the \"Americano\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 61600
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -730,11 +759,12 @@
             "keyword": "And ",
             "name": "the user presses the \"Sugar\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 45601
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -776,7 +806,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -796,11 +826,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1625886336
+              "duration": 1601680800
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -819,11 +849,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 88251
+              "duration": 146700
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -832,11 +862,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 108307
+              "duration": 142100
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -845,11 +875,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 132742
+              "duration": 132400
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -858,11 +888,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 92990
+              "duration": 110600
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -883,7 +913,7 @@
             },
             "line": 38,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -895,7 +925,7 @@
             },
             "line": 39,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -925,7 +955,7 @@
             },
             "line": 42,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -942,11 +972,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1619684719
+              "duration": 1597425400
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -959,10 +989,10 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/americano-with-sugar.feature"
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/americano-with-sugar.feature"
   },
   {
-    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in and get change back\n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
+    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put coins in \n  or pay with bank card\n  and get a cup of Americano back\n  with sugar or without sugar\n  because I like Americano and crave caffeine.",
     "elements": [
       {
         "id": ";buy-americano-without-sugar-with-coins",
@@ -976,11 +1006,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 66734
+              "duration": 68200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -989,11 +1019,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 53242
+              "duration": 49700
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1002,11 +1032,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 92628
+              "duration": 95999
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1015,11 +1045,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 66371
+              "duration": 53400
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1028,11 +1058,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 79862
+              "duration": 34700
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1074,7 +1104,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1094,11 +1124,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1619305824
+              "duration": 1560050099
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1117,11 +1147,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 141493
+              "duration": 54200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1130,11 +1160,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 102473
+              "duration": 93600
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1143,11 +1173,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 111589
+              "duration": 94201
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1156,11 +1186,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 88615
+              "duration": 56400
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1169,11 +1199,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 56524
+              "duration": 68299
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1215,7 +1245,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1235,11 +1265,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1617526954
+              "duration": 1606726800
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1258,11 +1288,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 51783
+              "duration": 120800
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1271,11 +1301,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 55066
+              "duration": 91099
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1284,11 +1314,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 74393
+              "duration": 108800
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1297,11 +1327,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 65276
+              "duration": 92401
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1310,11 +1340,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 56160
+              "duration": 44800
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1356,7 +1386,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1376,11 +1406,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1646623426
+              "duration": 1579468499
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1399,11 +1429,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 70382
+              "duration": 105301
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1412,11 +1442,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 90075
+              "duration": 99100
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1425,11 +1455,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 93721
+              "duration": 107101
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1438,11 +1468,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 75123
+              "duration": 127000
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1451,11 +1481,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 64912
+              "duration": 90399
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1497,7 +1527,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1517,11 +1547,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1629438244
+              "duration": 1571420700
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1540,11 +1570,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 109401
+              "duration": 49401
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1553,11 +1583,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 101743
+              "duration": 67400
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1566,11 +1596,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 114143
+              "duration": 100900
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1579,11 +1609,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 94450
+              "duration": 97600
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1592,11 +1622,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 48865
+              "duration": 54700
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1638,7 +1668,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1658,11 +1688,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1622564172
+              "duration": 1568719099
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1681,11 +1711,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 153892
+              "duration": 53901
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1694,11 +1724,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 99556
+              "duration": 52200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -1707,11 +1737,11 @@
             "name": "that the machine has enough  coffee for a cup",
             "result": {
               "status": "passed",
-              "duration": 121072
+              "duration": 65499
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:32"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1720,11 +1750,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 107213
+              "duration": 79200
             },
             "line": 14,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1733,11 +1763,11 @@
             "name": "the user presses the \"Americano\" button",
             "result": {
               "status": "passed",
-              "duration": 68558
+              "duration": 35500
             },
             "line": 36,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1767,7 +1797,7 @@
             },
             "line": 39,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1784,11 +1814,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1623377755
+              "duration": 1577037900
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1801,10 +1831,10 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/americano.feature"
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/americano.feature"
   },
   {
-    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of Caffe Latte back\nwith sugar or without sugar\nbecause I like Caffe Latte and crave caffeine.",
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in\nor pay with bank card\nand get a cup of Caffe Latte back\nwith sugar or without sugar\nbecause I like Caffe Latte and crave caffeine.",
     "elements": [
       {
         "id": ";buy-caffe-latte-without-sugar-with-coins",
@@ -1818,11 +1848,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 130189
+              "duration": 55200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1831,21 +1861,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 61995
+              "duration": 43699
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 50801
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -1865,7 +1899,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -1877,7 +1911,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -1919,7 +1953,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -1939,11 +1973,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1626020536
+              "duration": 1550483101
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1962,11 +1996,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 105755
+              "duration": 56200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -1975,21 +2009,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 91897
+              "duration": 81500
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 88400
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2009,7 +2047,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2021,7 +2059,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2063,7 +2101,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2083,11 +2121,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1621909585
+              "duration": 1560009699
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2106,11 +2144,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 65276
+              "duration": 66600
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2119,21 +2157,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 66371
+              "duration": 65200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 67101
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2153,7 +2195,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2165,7 +2207,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2207,7 +2249,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2227,11 +2269,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1622056912
+              "duration": 1572024301
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2250,11 +2292,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 106120
+              "duration": 62101
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2263,21 +2305,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 93357
+              "duration": 61800
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 68600
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2297,7 +2343,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2309,7 +2355,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2351,7 +2397,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2371,11 +2417,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1615518702
+              "duration": 1568203800
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2394,11 +2440,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 49596
+              "duration": 81899
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2407,21 +2453,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 47407
+              "duration": 171299
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 81200
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2441,7 +2491,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2453,7 +2503,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2495,7 +2545,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2515,11 +2565,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1618576480
+              "duration": 1556377101
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2538,11 +2588,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 75851
+              "duration": 54599
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2551,21 +2601,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 95910
+              "duration": 57300
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 100200
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2585,7 +2639,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2597,7 +2651,7 @@
             },
             "line": 35,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2627,7 +2681,7 @@
             },
             "line": 38,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2644,11 +2698,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1617230475
+              "duration": 1563592000
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2667,11 +2721,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 123259
+              "duration": 46400
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2680,21 +2734,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 128364
+              "duration": 57900
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 48101
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2714,7 +2772,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2722,9 +2780,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -2735,7 +2796,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2747,7 +2808,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2789,7 +2850,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2809,11 +2870,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1625828718
+              "duration": 1574649900
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2832,11 +2893,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 86428
+              "duration": 52999
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -2845,21 +2906,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 75852
+              "duration": 55900
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 49600
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -2879,7 +2944,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -2887,9 +2952,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -2900,7 +2968,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2912,7 +2980,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -2954,7 +3022,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -2974,11 +3042,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1618414565
+              "duration": 1572529900
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2997,11 +3065,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84604
+              "duration": 96699
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3010,21 +3078,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 93721
+              "duration": 134100
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 111001
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3044,7 +3116,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3052,9 +3124,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -3065,7 +3140,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3077,7 +3152,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3119,7 +3194,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -3139,11 +3214,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1621893539
+              "duration": 1571400999
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3162,11 +3237,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 68924
+              "duration": 61499
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3175,21 +3250,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 71475
+              "duration": 44200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 72401
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3209,7 +3288,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3217,9 +3296,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -3230,7 +3312,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3242,7 +3324,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3284,7 +3366,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -3304,11 +3386,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1638941605
+              "duration": 1563878400
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3327,11 +3409,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 125447
+              "duration": 63900
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3340,21 +3422,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 63818
+              "duration": 77201
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 87701
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3374,7 +3460,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3382,9 +3468,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -3395,7 +3484,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3407,7 +3496,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3449,7 +3538,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -3469,11 +3558,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1629742746
+              "duration": 1605302201
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3492,11 +3581,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 99556
+              "duration": 104001
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3505,21 +3594,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 89710
+              "duration": 108400
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 136700
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3539,7 +3632,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3547,9 +3640,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 61
+            "line": 61,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -3560,7 +3656,7 @@
             },
             "line": 62,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3572,7 +3668,7 @@
             },
             "line": 63,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3602,7 +3698,7 @@
             },
             "line": 66,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3619,11 +3715,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1617787329
+              "duration": 1597023401
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3636,10 +3732,10 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/caffelatte.feature"
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/caffelatte.feature"
   },
   {
-    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of Cappuccino back\nwith sugar or without sugar\nbecause I like Cappuccino and crave caffeine.",
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in \nor pay with bank card\nand get a cup of Cappuccino back\nwith sugar or without sugar\nbecause I like Cappuccino and crave caffeine.",
     "elements": [
       {
         "id": ";buy-cappuccino-without-sugar-with-coins",
@@ -3653,11 +3749,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 60536
+              "duration": 84999
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3666,21 +3762,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 59078
+              "duration": 73900
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 81300
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3700,7 +3800,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3712,7 +3812,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3754,7 +3854,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -3774,11 +3874,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1623086382
+              "duration": 1569292799
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3797,11 +3897,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 104296
+              "duration": 45099
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3810,21 +3910,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 92263
+              "duration": 49200
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 99800
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3844,7 +3948,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -3856,7 +3960,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -3898,7 +4002,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -3918,11 +4022,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1624261356
+              "duration": 1552556299
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -3941,11 +4045,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84239
+              "duration": 52700
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -3954,21 +4058,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 104661
+              "duration": 45900
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1612300
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -3988,7 +4096,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4000,7 +4108,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4042,7 +4150,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4062,11 +4170,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1626665275
+              "duration": 1567342301
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4085,11 +4193,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 80228
+              "duration": 88599
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4098,21 +4206,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 82050
+              "duration": 88300
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 78600
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4132,7 +4244,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4144,7 +4256,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4186,7 +4298,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4206,11 +4318,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1618296411
+              "duration": 1593747500
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4229,11 +4341,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 153891
+              "duration": 117801
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4242,21 +4354,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 891988
+              "duration": 111201
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 83200
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4276,7 +4392,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4288,7 +4404,7 @@
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4330,7 +4446,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4350,11 +4466,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1620217505
+              "duration": 1612357300
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4373,11 +4489,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 75853
+              "duration": 74200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4386,21 +4502,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 53607
+              "duration": 377001
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 83900
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4420,7 +4540,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4432,7 +4552,7 @@
             },
             "line": 35,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4462,7 +4582,7 @@
             },
             "line": 38,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4479,11 +4599,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1623928046
+              "duration": 1590764600
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4502,11 +4622,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 109037
+              "duration": 100700
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4515,21 +4635,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 75122
+              "duration": 125400
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 108500
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4549,7 +4673,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4557,9 +4681,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -4570,7 +4697,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4582,7 +4709,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4624,7 +4751,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4644,11 +4771,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1624073186
+              "duration": 1597233099
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4667,11 +4794,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 83875
+              "duration": 52601
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4680,21 +4807,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 65641
+              "duration": 44701
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 95400
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4714,7 +4845,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4722,9 +4853,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -4735,7 +4869,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4747,7 +4881,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4789,7 +4923,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4809,11 +4943,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1613334316
+              "duration": 1582457701
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4832,11 +4966,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 145139
+              "duration": 105500
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -4845,21 +4979,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 68194
+              "duration": 68500
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 86900
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -4879,7 +5017,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -4887,9 +5025,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -4900,7 +5041,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4912,7 +5053,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -4954,7 +5095,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -4974,11 +5115,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1624887499
+              "duration": 1599948200
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -4997,11 +5138,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84604
+              "duration": 49401
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5010,21 +5151,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 80228
+              "duration": 46399
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 98999
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -5044,7 +5189,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5052,9 +5197,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -5065,7 +5213,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5077,7 +5225,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5119,7 +5267,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -5139,11 +5287,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1620243032
+              "duration": 1566710699
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5162,11 +5310,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 59442
+              "duration": 44700
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5175,21 +5323,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 50689
+              "duration": 48000
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 69300
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -5209,7 +5361,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5217,9 +5369,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 42
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -5230,7 +5385,7 @@
             },
             "line": 43,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5242,7 +5397,7 @@
             },
             "line": 44,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5284,7 +5439,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "presses the \"Start\" button",
             "result": {
               "status": "undefined"
             },
@@ -5304,11 +5459,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1622811055
+              "duration": 1560450400
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5327,11 +5482,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 106485
+              "duration": 60299
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5340,21 +5495,25 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 67100
+              "duration": 63900
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffee for a cup",
+            "name": "that the machine has enough  coffee for a cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 96901
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
           },
           {
             "arguments": [],
@@ -5374,7 +5533,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5382,9 +5541,12 @@
             "keyword": "Given ",
             "name": "the machine has enough sugar for a cup",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 62
+            "line": 62,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:68"
+            }
           },
           {
             "arguments": [],
@@ -5395,7 +5557,7 @@
             },
             "line": 63,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5407,7 +5569,7 @@
             },
             "line": 64,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5437,7 +5599,7 @@
             },
             "line": 67,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5454,11 +5616,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1588920599
+              "duration": 1556778601
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5471,10 +5633,10 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/cappuccino.feature"
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/cappuccino.feature"
   },
   {
-    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in and get change back\nor pay with bank card\nand get a cup of  back\nwith sugar or without sugar\nbecause I like Americano and crave caffeine.",
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in \nor pay with bank card\nand get a cup of  back\nwith sugar or without sugar\nbecause I like Americano and crave caffeine.",
     "elements": [
       {
         "id": ";missing-coffee-for-americano",
@@ -5488,11 +5650,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 59077
+              "duration": 73301
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5501,11 +5663,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 64912
+              "duration": 44600
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -5514,11 +5676,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 53973
+              "duration": 65500
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5539,7 +5701,7 @@
             },
             "line": 17,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5565,11 +5727,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1611322783
+              "duration": 1561216601
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5588,11 +5750,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 99920
+              "duration": 44800
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5601,11 +5763,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 75488
+              "duration": 53799
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -5614,11 +5776,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 79498
+              "duration": 88000
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5648,7 +5810,7 @@
             },
             "line": 23,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5674,11 +5836,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1635278105
+              "duration": 1579069600
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5697,11 +5859,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 82781
+              "duration": 50200
             },
             "line": 11,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:13"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
             }
           },
           {
@@ -5710,11 +5872,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 61995
+              "duration": 52400
             },
             "line": 12,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:22"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
             }
           },
           {
@@ -5723,11 +5885,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 55065
+              "duration": 96200
             },
             "line": 13,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -5757,7 +5919,7 @@
             },
             "line": 29,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\step-definitions\\coffee-machine.js:62"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
             }
           },
           {
@@ -5783,11 +5945,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1627200614
+              "duration": 1565025299
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\kaffemaskin1\\kaffemaskin1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -5800,6 +5962,240 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/kaffemaskin1/kaffemaskin1/features/missingcaffeforcup.feature"
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/missingcaffeforcup.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in \nor pay with bank card\nand get a cup of  back\nwith sugar or without sugar\nbecause I like Cappuccino amd Caffe Latte and crave caffeine.",
+    "elements": [
+      {
+        "id": ";missing-milk-powder-for-cappuccino",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Missing milk powder for Cappuccino",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 50899
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 49600
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 43701
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "passed",
+              "duration": 44499
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk powder for a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Cappuccino\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receive a cup of Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the display shows \"There is not enough milk powder\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1574773001
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/missingmilkpowder.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put coins in \nor pay with bank card\nand get a cup of  back\nwith sugar or without sugar\nbecause I like Americano and crave caffeine.",
+    "elements": [
+      {
+        "id": ";missing-cup-for-americano",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Missing cup for Americano",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 58200
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 47800
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine does not have plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough  coffee for a cup",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the \"Americano\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\step-definitions\\coffee-machine.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receive a cup of Americano",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the display shows \"There is not a plastic cup available\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1565260000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\kaffemaskin1-anyagagliano\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/dev/kaffemaskin1-anyagagliano/features/missingplasticup.feature"
   }
 ]

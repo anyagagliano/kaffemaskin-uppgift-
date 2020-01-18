@@ -1,7 +1,7 @@
 Feature:
 As a coffee buyer
 I want a coffee machine that
-I can put coins in and get change back
+I can put coins in 
 or pay with bank card
 and get a cup of Cappuccino back
 with sugar or without sugar
@@ -10,7 +10,7 @@ because I like Cappuccino and crave caffeine.
   Background: Coffe machine basic
     Given that the machine is plugged in
     And that water is available
-    And that the machine has enough coffee for a cup
+    And that the machine has enough  coffee for a cup
     And that the machine has enough milk powder for a cup of Cappuccino
     And the machine has plastic cups
 
@@ -20,7 +20,7 @@ because I like Cappuccino and crave caffeine.
     And the user inserts a <money2> kr coin
     And the user inserts a <money3> kr coin
     And the user inserts a <money4> kr coin
-    And presses the "start" button
+    And presses the "Start" button
     Then the user recieves <cup> cup of Cappuccino.
 
     Examples:
@@ -46,7 +46,7 @@ because I like Cappuccino and crave caffeine.
     And the user inserts a <money2> kr coin
     And the user inserts a <money3> kr coin
     And the user inserts a <money4> kr coin
-    And presses the "start" button
+    And presses the "Start" button
     Then the user recieves <cup> cup of Cappuccino with sugar.
 
     Examples:

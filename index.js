@@ -49,12 +49,14 @@ class CoffeeMachine {
 
   fillWithMilkPowder(amount) {
 
-    
+    this.amountOfMilkPowder += amount;
     
 
   }
 
   fillWithSugar(amount) {
+
+    this.amountOfSugar +=amount;
     
 
   }
@@ -104,7 +106,7 @@ class CoffeeMachine {
 
   // internals
   dispenseCup() {
-
+  
   }
 
   brewAmericano() {
@@ -142,12 +144,17 @@ class CoffeeMachine {
   }
 
   checkIfEnoughMilkForCappuccino() {
+    return this.amountOfMilkPowder>=this.milkPerCappuccino;
     
   }
 
   checkIfEnoughMilkForCaffeLatte() {
-    
+    return this.amountOfMilkPowder>=this.milkPerCaffeLatte;
 
+  }
+
+  checkIfEnoughSugarForACup() {
+    return this.amountOfSugar >= this.sugarPerCup;
   }
 
   checkIfAnyCupsLeft() {

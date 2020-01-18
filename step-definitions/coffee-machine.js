@@ -65,6 +65,22 @@ module.exports = function () {
    
   });
 
+  this.Given(/^the machine has enough sugar for a cup$/, function () {   
+    
+    assert.deepEqual(
+      myMachine.checkIfEnoughSugarForACup(),
+      false,
+      'Expected a new machine to not have enough sugar');
+    myMachine.fillWithSugar(100);
+    assert.deepEqual(
+      myMachine.checkIfEnoughSugarForACup(),
+      true,
+      'Expected to have enough sugar for a cup after filling it with 100 grams of sugar'
+    );
+  });
+
+
+
 
 }
 
