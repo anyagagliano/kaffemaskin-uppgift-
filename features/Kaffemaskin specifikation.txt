@@ -1,0 +1,299 @@
+﻿Tekniska specifikationer
+
+
+
+
+
+
+1. Maskin kan laga tre typer av kaffe: Americano, Cappuccino, Caffe Latte.
+2. Maskin är kopplat till vatten        
+3. Maskin är kopplat till el
+4. Maskin har 4 kilo behållare för kaffe
+5. Maskin har 3 kilo behållare för mjölkpulver
+6. Maskin har 3 kilo behållare för socker
+7. Maskin behöver underhålla varje vecka
+8. Maskin kan lägga till socker till alla typ av kaffe
+9. Maskin kan ta emot mynt (bara 5 kr eller 10 kr) eller kontokort
+10. Maskin använder malet kaffe
+11. Maskin använder  mjölkpulver som är skummat 
+
+
+
+
+
+
+
+
+Utseende
+
+
+Maskin har:
+
+
+1. En kopp hållare
+2. Ett myntinkast
+3. En kortläsare med display. Display visar ett pris för valt kaffe, om kortet är godkänd eller om det finns inte tillräckligt med pengar på konto.
+4. Ett display som visar om maskin är redo att användas, vilken typ av kaffe är valt, om socker är valt, att kaffe bryggs, hur många mynt (i SEK) har maskin tagit, att kaffe är färdig. Det kan också visas när maskin behöver fyllas på kaffe eller mjölkpulver och  när maskin är inte kopplat till vatten, när det finns inte tillräckligt kaffe eller mjölkpulver i maskinen. 
+5. 7 knapp för att välja: Americano, Cappuccino, Caffe Latte, Socker (Lägg till ett sked), Cancel Sugar,  Ett startknapp, Ett Avbryt knapp (Cancel button) (när man vill avbryta köp och få alla pengar tillbaka).
+6. Kortbetalning. Kortbetalning genomförs med kontaktlösa betalningar
+7. Först man väljer en typ av Kaffe och sen blippar kort på terminalen, sen det  kontrolleras om det finns tillräckligt med pengar för en kopp. Sen när man klickar på Start button, dras pengarna från konto. Om man vill avbryta köp efter att man blippar kort, så klickar man på Cancel button och inga pengar kommer att dras från konto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+API - specification
+
+
+Class: CoffeeMachine
+
+
+Properties
+
+
+pluggedIn
+Type: boolean
+Initial value: false
+ if the machine is powered on
+
+
+connectedToWater
+Type: boolean
+Initial value: false
+  if the machine is connected to water
+
+
+numberOfCups
+Type: number
+Initial value: 0 
+how many cups has the machine 
+
+
+amountOfCoffee
+ Type: number (grams)
+Initial value: 0
+ - how much coffee in grams has the machine
+
+
+amountOfMilkPowder 
+Type: number (grams)
+Initial value:0
+ - how much milk powder has the machine
+
+
+amountOfSugar
+Type: number(grams)
+Initial value: 0
+ - how much sugar has the machine
+
+
+
+
+totalCashInMachine
+Type: number (SEK)
+Initial value: 0
+- how much money has the machine (to give a change)
+
+
+insertedMoney
+Type: number (SEK)
+Initial value: 0
+how much money are inserted in the machine
+
+
+//insertedMoneySicnceLastCup (number)
+pricePerCup
+Type:number(SEK)
+Initial value:20 
+
+
+
+
+coffeePerCup
+Type: number (grams)
+Initial value:13
+ - how much coffee is required for a cup of coffee(all types)
+
+
+milkPerCappuccino
+Type: number(grams)
+Initial value: 10
+- the amount of milk powder required for a cup of cappuccino
+
+
+milkPerCaffeLatte
+Type: number(grams)
+Initial value:15
+ - the amount of milk powder required for a cup of caffe latte
+
+
+sugarPerCup
+Type: number(grams)
+Initial value: 7
+the amount of sugar required for a cup of any type of coffee
+
+
+waterForCaffe (Americano and Cappuccino)
+Type:number(ml)
+Initial value: 177
+The amount of water required for Americano or Cappuccino
+
+
+waterForCaffeLatte
+Type:number(ml)
+Initial value: 200
+The amount of water required for Caffe Latte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Methods 
+
+
+
+
+Maintenence
+
+
+plugIn() used for connecting machine to electricity
+Return value: boolean
+
+
+connectToWater() used for connecting machine to water
+Return value:
+
+
+
+
+fillWithCoffee(amount) called to add amount to total amount of coffee in the machine
+Return value: nothing
+
+
+
+
+fillWithMilkPowder(amount) called to add amount to the total amount of milk powder in the machine
+Return: nothing
+
+
+fillWithSugar(amount) called to add amount to the total amount of sugar in the machine
+Return: nothing
+
+
+fillWithCups(amount) called to add amount to total amount of cups in the machine
+Return: nothing
+
+
+User choices
+
+
+insertMoney(inserted)  called to add inserted  money to the total money inserted so far
+Return: Returns true if enough money for chosen type of beverage is reached,
+
+
+17
+otherwise false.
+
+
+
+
+Buttons  
+
+
+pressAmericanoButton() called when the Americano button is pressed
+Return:String, Americano
+pressCappuccinoButton() called when Cappuccino button is pressed
+Return: String,Cappuccino
+pressCaffeLatteButton() called when caffe Latte button is pressed
+Return:String, Caffe Latte
+pressSugarButton() called when Sugar button is pressed
+Return: String “Sugar added”
+pressCancelSugarButton() called when Minus button for sugar is pressed 
+Return: String, “Less sugar”, “Sugar is cancelled”
+PressCancelButton() called when the cancel button is pressed 
+Return:String, the amount of money inserted since last cup to a customer
+pressStartButton() called when the start button is pressed
+Return: string,  type of coffee bought
+
+
+
+
+Internals
+
+
+dispenceCup() called after start button is pressed before brewing start
+Return: nothing
+
+
+brewAmericano()  called when customer chooses Americano
+Return: string, name
+brewCappuccino() called when customer chooses  Cappuccino
+Return:string name
+
+
+brewCaffeLatte()  called when customer chooses  Caffe Latte
+Return: string,name
+
+
+addSugar() called when customer chooses to add sugar
+Return: string, “Adding sugar”
+
+
+
+
+
+
+dispenseAmericano() called for dispense Americano
+Return: string “Here is your Americano”
+dispenseCappuccino()called for dispense Cappuccino
+Return:  string “Here is your Cappuccino”
+
+
+dispenseCaffeLatte()called for dispenseCaffe Latte
+Return: string “Here is your Caffe Latte”
+
+
+
+
+checkIfEnoughCoffeForACup() called to check if there is enough coffe for a cup
+Return: return this.amountOfCoffee >= this.coffeePerCup;
+
+
+checkIfAnyCupsLeft() called to check if there are cups in the machine
+return this.numberOfCups >= 1;
+
+
+checkIfEnoughMilkForCappuccino()  called to check if there is enough powder milk for cappuccino
+Return:
+checkIfEnoughMilkForCaffeLatte() called to check if there is enough powder milk for caffe Latte
+Return:
+CheckIfEnoughSugarForACup() called to check if there is enough sugar for one spoon
+Return:
